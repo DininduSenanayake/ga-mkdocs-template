@@ -93,3 +93,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.snippets
+
+
+nav:
+    - Introduction: 'docs/images/sismonr_network.html'

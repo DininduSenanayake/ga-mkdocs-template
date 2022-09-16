@@ -45,3 +45,6 @@ some other text
 
 Checking version 2.0
 
+
+
+--8<-- "docs/images/sismonr_network.html"
