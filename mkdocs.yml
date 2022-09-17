@@ -95,5 +95,4 @@ markdown_extensions:
   - pymdownx.snippets
 
 
-nav:
-    - Introduction: 'docs/images/sismonr_network.html'
+
