@@ -6,6 +6,7 @@ repo_url: https://github.com/DininduSenanayake/mkdocs-testing.git
 
 theme:
   name: material
+  custom_dirs: overrides
   logo: img/nesi_ga.png
   favicon: img/nesi_ga.png
    # 404 page
