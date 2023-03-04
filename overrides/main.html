@@ -1,6 +1,16 @@
 {% extends "base.html" %}
 
 {% block announce %}
-  checking announcement bar
+       checking announcement bar
   <!-- Add announcement here, including arbitrary HTML -->
+{% endblock %}
+
+{% block header %}
+<!-- Custom Banner -->
+<div class="banner">
+    <p style="color:COLOR_HERE; display:inline;">TEXT GOES HERE!</p>
+</div>
+
+<!-- Original Header -->
+{% include "partials/header.html" %}
 {% endblock %}
