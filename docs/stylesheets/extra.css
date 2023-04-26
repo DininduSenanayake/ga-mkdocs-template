@@ -12,3 +12,25 @@
 .md-header {
     top: 30px;          /* This setting prevents the Material header from imposing into the space of the banner! */
 }
+
+
+:root {
+  @extend %root;
+  --md-primary-fg-color:        #C9445B;
+  --md-primary-fg-color--light: #E60000;
+  --md-primary-fg-color--dark:  #0c0909;
+  --md-primary-bg-color:        rgb(228, 217, 217);
+  --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
+  --md-primary-bg-color--dark: #0C0909;
+
+    // Accent color shades
+  --md-accent-fg-color:                hsla(#{hex2hsl($clr-indigo-a200)}, 1);
+  --md-accent-fg-color--transparent:   hsla(#{hex2hsl($clr-indigo-a200)}, 0.1);
+  --md-accent-bg-color:                #0C0909;
+  --md-accent-bg-color--light:         hsla(0, 0%, 100%, 0.7);
+}
+
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 310; 
+}

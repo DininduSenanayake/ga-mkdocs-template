@@ -28,6 +28,7 @@ theme:
     logo: logo
 
   palette:
+    
 
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -37,7 +38,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: nesi 
 
 
       toggle:
