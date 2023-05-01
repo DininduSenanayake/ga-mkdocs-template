@@ -14,11 +14,11 @@
 }
 
 
-:root {
+:root {i
 
   /* Default color shades */
-  --md-default-fg-color:               #C9445B;
-  --md-default-fg-color--light:        #C9445B;
+  --md-default-fg-color:               rgb(11,33,57);
+  --md-default-fg-color--light:        rgb(11,33,57,0.8);
   --md-default-fg-color--lighter:      rgb(11,33,57,0.5);
   --md-default-fg-color--lightest:     rgb(11,33,57,0.1);
 /*
@@ -29,7 +29,7 @@
 */
 
   /* Primary color shades */
-  --md-primary-fg-color:               #C9445B;
+  --md-primary-fg-color:               rgb(0,143,184);
   --md-primary-fg-color--light:        rgb(35,171,227);
   --md-primary-fg-color--dark:         rgb(11,33,57);
   /*
