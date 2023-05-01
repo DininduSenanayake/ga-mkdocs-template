@@ -14,22 +14,48 @@
 }
 
 
-:root {
-  --md-primary-fg-color:        #C9445B;
-  --md-primary-fg-color--light: #E60000;
-  --md-primary-fg-color--dark:  #0c0909;
-  --md-primary-bg-color:        rgb(228, 217, 217);
-  --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
-  --md-primary-bg-color--dark: #0C0909;
+:root {i
 
-    // Accent color shades
-  --md-accent-fg-color:                hsla(#{hex2hsl($clr-indigo-a200)}, 1);
-  --md-accent-fg-color--transparent:   hsla(#{hex2hsl($clr-indigo-a200)}, 0.1);
-  --md-accent-bg-color:                #0C0909;
-  --md-accent-bg-color--light:         hsla(0, 0%, 100%, 0.7);
+  /* Default color shades */
+  --md-default-fg-color:               rgb(11,33,57);
+  --md-default-fg-color--light:        rgb(11,33,57,0.8);
+  --md-default-fg-color--lighter:      rgb(11,33,57,0.5);
+  --md-default-fg-color--lightest:     rgb(11,33,57,0.1);
+/*
+  --md-default-bg-color:               rgb(255,255,255);
+  --md-default-bg-color--light:        rgb(255,255,255);
+  --md-default-bg-color--lighter:      rgb(255,255,255);
+  --md-default-bg-color--lightest:     rgb(255,255,255);
+*/
+
+  /* Primary color shades */
+  --md-primary-fg-color:               rgb(0,143,184);
+  --md-primary-fg-color--light:        rgb(35,171,227);
+  --md-primary-fg-color--dark:         rgb(11,33,57);
+  /*
+  --md-primary-bg-color:               rgb(255,255,255);
+  --md-primary-bg-color--light:        rgb(255,255,255);
+ */
+
+  /* Accent color shades */
+  
+  --md-accent-fg-color:                rgb(248,150,29);
+  --md-accent-fg-color--transparent:   rgb(248,150,29,0.25);
+
+  --md-accent-bg-color:                rgb(210,227,235);
+  --md-accent-bg-color--light:         rgb(210,227,235,0.5);
 }
 
 
-[data-md-color-scheme="slate"] {
-  --md-hue: 310; 
-}
+#--md-primary-fg-color:        #C9445B;
+#  --md-primary-fg-color--light: #E60000;
+#  --md-primary-fg-color--dark:  #0c0909;
+#  --md-primary-bg-color:        rgb(228, 217, 217);
+#  --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
+#  --md-primary-bg-color--dark: #0C0909;
+#
+#    // Accent color shades
+#  --md-accent-fg-color:                hsla(#{hex2hsl($clr-indigo-a200)}, 1);
+#  --md-accent-fg-color--transparent:   hsla(#{hex2hsl($clr-indigo-a200)}, 0.1);
+#  --md-accent-bg-color:                #0C0909;
+#  --md-accent-bg-color--light:         hsla(0, 0%, 100%, 0.7);
