@@ -15,7 +15,6 @@
 
 
 :root {
-  @extend %root;
   --md-primary-fg-color:        #C9445B;
   --md-primary-fg-color--light: #E60000;
   --md-primary-fg-color--dark:  #0c0909;
