@@ -50,6 +50,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+    
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+#    - toc.integrate
+    - navigation.tabs
+    - navigation.tabs.sticky
 
 extra_css:
   - stylesheets/extra.css
@@ -105,6 +114,6 @@ plugins:
       zoomable: true
   - search:
       lang: en
-  - mkdocs-jupyter:
-      execute: true
+  - awesome-pages
+  
 
