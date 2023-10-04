@@ -1,17 +1,58 @@
-site_name: MkDocs Test Environment
+site_name: GA/NeSI mkdocs-material theme
+site_author: Genomics Aotearoa & NeSI
+site_dir: public
+site_url: "https://dinindusenanayakeithub.io/ga-mkdocs-template/"
 
-#Repository
-repo_name: DininduSenanayake/mkdocs-testing
-repo_url: https://github.com/DininduSenanayake/mkdocs-testing.git
+#Repository information
+
+repo_name:  DininduSenanayake/ga-mkdocs-template
+repo_url: https://github.com/DininduSenanayake/ga-mkdocs-template
+
 
 theme:
   name: material
-  custom_dir: ./overrides
-  logo: img/nesi_ga.png
-  favicon: img/nesi_ga.png
+  logo: images/nesi_ga.png
+  favicon: images/nesi_ga.png
    # 404 page
   static_templates:
     - 404.html
+
+  palette:
+
+  # Palette toggle for automatic mode
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+    primary: custom
+
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: custom
+
+
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to system preference
+    primary: custom
+  
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.code.annotate
+
 
   # Necessary for search to work properly
   include_search_page: false
@@ -20,52 +61,8 @@ theme:
   # Default values, taken from mkdocs_theme.yml
   language: en
   font:
-    text: Roboto
-    code: Roboto Mono
-    
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
-
-  palette:
-   
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
-
-
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
-    
-  features:
-    - navigation.tracking
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-#    - toc.integrate
-    - navigation.tabs
-    - navigation.tabs.sticky
-
-extra_css:
-  - stylesheets/extra.css
-  
-extra:
-  version:
-    provider: mike
+    text: Mukta
+    code: Fira Code
 
 markdown_extensions:
   - abbr
@@ -88,7 +85,6 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
-      auto_title: false 
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
@@ -109,12 +105,20 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.snippets
 
-plugins:
+plugins: 
   - glightbox:
       effect: zoom
       zoomable: true
   - search:
       lang: en
-  - awesome-pages
-  
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+copyright : Intermediate Shell for Bioinformatics workshop material is licensed under a <a rel="noopener" target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License v3.0</a>
+
+
+extra_css:
+  - stylesheets/extra.css
