@@ -59,3 +59,14 @@
     ```
 
     * This manual deployment is only for the first round. All subsequent builds will be done by github actions as per `.github/workflows/ci.yml`
+
+!!! clipboard-list "Examples"
+
+    - All of the GA/NeSI workshop repos reside  on https://github.com/GenomicsAotearoa are compiled with this template with modifications such as colour themes, additional admonitions ( all defined in `stylesheets/extra.css`). Few exaples, 
+     
+    - https://genomicsaotearoa.github.io/Workshop-Bash_Scripting_And_HPC_Job_Scheduler/
+    - https://genomicsaotearoa.github.io/scRNA-seq-data-analysis/
+    - https://genomicsaotearoa.github.io/metagenomics_summer_school/
+    - https://genomicsaotearoa.github.io/Pangenome-Graphs-Workshop/
+
+    
