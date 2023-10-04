@@ -1,5 +1,7 @@
 # MkDocs Test Environment
+:fontawesome-brands-twitter:{ .twitter }
 
+:fontawesome-solid-lightbulb:{ .lightbulb }
 ```py linenums="1"
 print "hello world"
 ```
@@ -8,12 +10,12 @@ print "hello world"
 ```
 
 ```bash linenums="1"
-echo 
+echo
 print "hello"
 ```
 
-**checking header** adding more content back for ci testing 
- 
+**checking header** adding more content back for ci testing
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -48,7 +50,7 @@ some other text
     $ grep...
     ```
     changing to see whether I can revert back from version deploy to `mkdocs gh-deploy`
-    
+
 
 </div>
 
